@@ -1,0 +1,28 @@
+# HealerSaint Configuration
+
+# Probability of a new player becoming the Healer Saint (default: 1 in 1,000,000)
+saint_chance: 1000000
+
+# Whether to allow multiple saints on the server
+allow_multiple_saints: false
+
+# Radius of the healing aura in blocks
+healing_radius: 5
+
+# Health restored per second in the healing aura (0.5 = 1 heart per 4 seconds)
+healing_per_second: 0.5
+
+# Cooldown for the Healing Hand ability in seconds
+healing_hand_cooldown: 10
+
+# Resurrection chance when near a Healer Saint (percentage)
+resurrection_chance: 10
+
+# Resurrection range in blocks
+resurrection_range: 10
+
+# Resurrection cooldown per player in hours
+resurrection_cooldown: 2
+
+# How many days without logging in before a Saint is considered inactive
+saint_inactivity_days: 30

@@ -1,0 +1,20 @@
+name: HealerSaint
+version: 1.0
+main: com.minecraft.healerSaint.HealerSaint
+api-version: 1.21
+description: Adds a rare chance for new players to become a Healer Saint with special abilities
+author: YourName
+
+commands:
+  saint:
+    description: Main command for the HealerSaint plugin
+    usage: /<command> [reload|give|remove|info]
+    permission: saint.admin
+
+permissions:
+  saint.admin:
+    description: Allows use of all HealerSaint admin commands
+    default: op
+  saint.exempt:
+    description: Exempts player from becoming a Healer Saint
+    default: false
